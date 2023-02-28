@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+section{
+    background-image: url(../img/background.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+
+}
+
+.header-section{
+    /* width: 177px; */
+    height: 173px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+
+}
+
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    width: 177px;
+    color: #FFFFFF;
+
+
+}
+
+.description-text{
+   
+    height: 43px;
+    width: 240px;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #FFFFFF;
+
+    margin-top: 12px;
+    /* margin-left: 15px;
+   
+    margin-bottom: 17px; */
+    font-weight: 300px;
+    font-size: 18.0246px;
+
+    line-height: 21px;
+
+    /* padding: 0 5px; */
+    
+   
+    display: flex;
+    align-items: flex-end;
+    
+    text-align: center;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.sing-up{
+    box-sizing: border-box;
+    background: rgba(26, 25, 21, 0.0001);
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 12px;
+    padding-right: 12px;
+   
+    height: 39px;
+    
+}
+.header-item{
+    margin-top: 21px;
+}
+
+
+.btn-container{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 15px;
+    
+
+    border-radius: 30px;
+    border: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background: #FF4E50;
+}
+ 
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.title{
+    width: 306.03px;
+    height: 75px;
+
+    margin-top: 100px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.041px;
+   
+   
+    
+   
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.logo{
+    
+    margin-bottom: 22px;
+    margin-top: 112px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
